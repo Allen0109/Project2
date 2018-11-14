@@ -1,0 +1,100 @@
+@CHARSET "EUC-KR";
+
+body{
+/* 	margin-top : 120px;
+	margin-bottom : 120px; */
+}
+
+header{
+		height: 100px;margin: 0px;padding: 0px;
+		background-color: antiquewhite;
+}
+footer{
+		border :4px solid brown;
+		position : fixed;
+		left : 0;
+		top : 0;
+		width:100%;
+		height : 100px;
+		background-color: antiquewhite;
+}
+
+#login{ float: right;
+		margin: 40px 64px 0 0;
+		font-family: Arial,Helvetica,sans-serif;
+		font-size: 12px;word-spacing: 5px
+		}
+/*정렬 오른쪽 밖여백 20 64 0 0  
+글자체 Arial,Helvetica,sans-serif 크기 12px 
+단어간격 5px*/
+
+#login a{text-decoration: none; color: #333}
+/* 하이퍼링크 밑줄 없음 글자색 #333*/
+
+#login a:hover{color: #ff0000}
+/* 하이퍼링크 hover 글자색 #F90*/
+
+#logo{float: left;
+	width: 200px; 
+	margin: 0;
+	border : 0;
+	}
+/*정렬 왼쪽 너비 265px 밖여백 60px 0 0 40px*/
+
+/* top menu setting */
+#top_menu{
+	height : 120px;
+	width : 1400px;
+	margin : 30px 30px 0 0;
+	padding-left: 500px;
+}
+
+#top_menu ul li{                      
+        list-style: none;         
+        color: white;               
+        background-color: gray;  
+        float: left;              
+        line-height: 100px;          
+        vertical-align: middle;    
+        text-align: center;       
+ }
+
+#top_menu a:hover{
+	color:#ffffff;
+}
+
+#top_menu ul ul{
+	display: none;
+	list-style-type:none;
+}
+
+#top_menu ul li:hover ul{
+	display: block;
+	
+}
+
+#top_menu ul ul li{
+	float : none;
+	 list-style: none;         
+        color: white;               
+        background-color: gray;  
+        line-height: 100px;          
+        vertical-align: middle;    
+        text-align: center;   
+        list-style:none;
+}
+
+
+
+
+
+ 
+#top_menu .top_menu_link{                               
+                        text-decoration:none;                      
+                        color: white;                             
+                        display: block;                           
+                        width: 250px;                             
+                        font-size: 15px;                          
+                        font-weight: bold;                        
+                        font-family: "Trebuchet MS", Dotum, Arial; 
+                }
